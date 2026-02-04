@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Docs  ",
+  "search": "-path:Daily AND -path:Daily   ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
