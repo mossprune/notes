@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Zettelkasten/abstraction.md",
+                "file": "3 - Zettelkasten/implementation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "abstraction"
+              "title": "implementation"
             }
           }
         ]
@@ -170,10 +170,10 @@
   },
   "active": "0d65b80868115290",
   "lastOpenFiles": [
-    "2 - Source/Books/Building a Modern Computer From First Principles.md",
-    "3 - Zettelkasten/Modules.md",
-    "3 - Zettelkasten/implementation.md",
     "3 - Zettelkasten/abstraction.md",
+    "3 - Zettelkasten/implementation.md",
+    "3 - Zettelkasten/Module.md",
+    "2 - Source/Books/Building a Modern Computer From First Principles.md",
     "3 - Zettelkasten/Abstraction and Implementation.md",
     "Daily/2026-02-04.md",
     "Untitled.md",

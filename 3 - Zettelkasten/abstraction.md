@@ -1,3 +1,3 @@
 #computer-science 
 
-An an
+An abstraction describes what a [[Module]] does.
