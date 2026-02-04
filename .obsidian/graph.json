@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:Docs ",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -9,14 +9,14 @@
   "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 1.3,
-  "nodeSizeMultiplier": 1.04065538194444,
-  "lineSizeMultiplier": 4.31242621527778,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.454947916666667,
+  "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.3385491454220295,
+  "scale": 1.955117494273305,
   "close": false
 }
