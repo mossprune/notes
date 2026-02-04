@@ -7,3 +7,7 @@ Modules are defined as:
  
  > A standardized, often interchangeable component of a system or construction that is designed for easy assembly or flexible use. 
  
+How do we build these modules in isolation? 
+
+Good modular design implies just that: you can work on the individual modules independently, while
+completely ignoring the rest of the system
