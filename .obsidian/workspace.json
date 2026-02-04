@@ -11,10 +11,14 @@
             "id": "b3b5fdc1c620bf47",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2026-02-04.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-02-04"
             }
           }
         ]
@@ -164,9 +168,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "b3b5fdc1c620bf47",
+  "active": "40f21a1a9fdbe9d0",
   "lastOpenFiles": [
-    "2026-02-04.md",
+    "Daily",
+    "Daily/2026-02-04.md",
     "2 - Source/Books/The Elements of Computing Systems, Second Edition - Building a Modern Computer From First Principles.md",
     "README.md",
     "2 - Source/Books",
