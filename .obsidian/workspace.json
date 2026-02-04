@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer-architecture",
+                "query": "tag:#computer-science",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,7 +165,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "40f21a1a9fdbe9d0",
+  "active": "609f3e5c1fd54bc4",
   "lastOpenFiles": [
     "Docs",
     "2 - Source/Books/Building a Modern Computer From First Principles.md",
