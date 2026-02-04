@@ -10,10 +10,4 @@ How do we build these modules in isolation?
 
 Good modular design should allow you to work individual modules independently, while completely ignoring the rest of the system. Great modular design allows you to build the modules in any order and parallel. 
 
-Modular design also heavily leads to [[decomposition]]
-
-The ability to break down a complex system into modules is enhanced by another cognitive skill: the capacity to distinguish between the [[abstraction]] and the [[implementation]] of each part.
-
-> [!Important] 
-> The most important rule in system engineering: when using any [[module]] you should only focus on its [[abstraction]] and ignore its [[implementation]] completely. This type of thinking allows us to reduce cognitive load and work in manageable chunks.
-
+Modular design also easily leads to [[decomposition]]
