@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstraction and Implementation.md",
+                "file": "2 - Source/Books/The Elements of Computing Systems, Second Edition - Building a Modern Computer From First Principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Abstraction and Implementation"
+              "title": "The Elements of Computing Systems, Second Edition - Building a Modern Computer From First Principles"
             }
           }
         ],
@@ -185,7 +185,7 @@
   },
   "active": "353a398f33261594",
   "lastOpenFiles": [
-    "Abstraction and Implementation.md",
+    "3 - Zettelkasten/Abstraction and Implementation.md",
     "2 - Source/Books/The Elements of Computing Systems, Second Edition - Building a Modern Computer From First Principles.md",
     "Untitled.md",
     "Boolean.md",
