@@ -164,8 +164,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "0d65b80868115290",
+  "active": "40f21a1a9fdbe9d0",
   "lastOpenFiles": [
+    "Other",
     "2 - Source/Books/Building a Modern Computer From First Principles.md",
     "Abstraction and Implementation.md",
     "3 - Zettelkasten/implementation.md",
@@ -177,7 +178,7 @@
     "Boolean.md",
     "Daily/2026.02.04.md",
     "Daily",
-    "README.md",
+    "Other/README.md",
     "2 - Source/Books",
     "3 - Zettelkasten/Binary.md",
     "Untitled.base",

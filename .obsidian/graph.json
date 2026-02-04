@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:\"Daily\" OR file: README",
+  "search": "-path:\"Daily\" ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.354405998115733,
+  "scale": 2.3385491454220295,
   "close": false
 }
