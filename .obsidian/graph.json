@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:Daily AND -path:Daily   ",
+  "search": "-path:Daily -file:README",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
