@@ -7,7 +7,6 @@
 # 1 - HARDWARE
 ### Boolean Logic
 
-[[Boolean]]
 ### Boolean Arithmetic
 ### Memory
 ### Machine Language
