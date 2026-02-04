@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "-path:\"Daily\" AND -file:\"README\"",
+  "collapse-filter": true,
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -13,18 +13,25 @@
         "a": 1,
         "rgb": 3177935
       }
+    },
+    {
+      "query": "path:\"2 - Source\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 0.799908854166667,
+  "lineSizeMultiplier": 3.50830729166667,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 2.5641923330443386,
+  "scale": 2.818633165485604,
   "close": false
 }
