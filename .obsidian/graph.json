@@ -1,7 +1,7 @@
 {
-  "collapse-filter": true,
-  "search": "",
-  "showTags": false,
+  "collapse-filter": false,
+  "search": "-path:\"Daily\", ",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 3.2704337258815523,
-  "close": true
+  "scale": 2.5641923330443386,
+  "close": false
 }
