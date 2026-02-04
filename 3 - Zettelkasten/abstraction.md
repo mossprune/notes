@@ -1,3 +1,3 @@
 #computer-science #computer-architecture 
 
-An abstraction describes what a [[Module]] aims to accomplish.
+An abstraction describes what a [[module]] aims to accomplish.

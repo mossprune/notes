@@ -1,3 +1,3 @@
 #computer-science #computer-architecture 
 
-An implementation describes how a [[Module]] accomplishes a goal.
+An implementation describes how a [[module]] accomplishes a goal.
