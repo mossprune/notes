@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "694de3fcd9e1ef38",
+        "id": "7ba2fa589e467f44",
         "type": "tabs",
         "children": [
           {
-            "id": "c2f86650c5aca0d8",
+            "id": "b3b5fdc1c620bf47",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Source/Books/The Elements of Computing Systems, Second Edition - Building a Modern Computer From First Principles.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "The Elements of Computing Systems, Second Edition - Building a Modern Computer From First Principles"
+              "title": "New tab"
             }
           }
         ]
@@ -168,10 +164,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "c2f86650c5aca0d8",
+  "active": "b3b5fdc1c620bf47",
   "lastOpenFiles": [
-    "README.md",
+    "2026-02-04.md",
     "2 - Source/Books/The Elements of Computing Systems, Second Edition - Building a Modern Computer From First Principles.md",
+    "README.md",
     "2 - Source/Books",
     "3 - Zettelkasten/Binary.md",
     "Untitled.base",
