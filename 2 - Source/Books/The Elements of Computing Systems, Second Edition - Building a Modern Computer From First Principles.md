@@ -6,6 +6,8 @@
 
 # 1 - HARDWARE
 ### Boolean Logic
+
+[[Boolean]]
 ### Boolean Arithmetic
 ### Memory
 ### Machine Language
@@ -16,6 +18,6 @@
 ### Virtual Machine II: Control
 ### High-Level Language
 ### Compiler I: Syntax Analysis
-11 Compiler II: Code Generation
-12 Operating System
-13 More Fun to Go
+### Compiler II: Code Generation
+### Operating System
+### More Fun to Go
