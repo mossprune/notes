@@ -22,13 +22,17 @@
             }
           },
           {
-            "id": "353a398f33261594",
+            "id": "efca36d2bdcdee47",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "3 - Zettelkasten/Modules.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Modules"
             }
           }
         ],
@@ -179,12 +183,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "353a398f33261594",
+  "active": "efca36d2bdcdee47",
   "lastOpenFiles": [
     "2 - Source/Books/Building a Modern Computer From First Principles.md",
+    "3 - Zettelkasten/Modules.md",
     "Daily/2026-02-04.md",
     "3 - Zettelkasten/Abstraction and Implementation.md",
-    "3 - Zettelkasten/Modules.md",
     "Untitled.md",
     "Boolean.md",
     "Daily/2026.02.04.md",
