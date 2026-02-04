@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "3 - Zettelkasten/Binary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Binary"
             }
           }
         ]
@@ -168,10 +168,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "c2f86650c5aca0d8",
+  "active": "40f21a1a9fdbe9d0",
   "lastOpenFiles": [
-    "3 - Zettelkasten/Binary.md",
     "README.md",
+    "3 - Zettelkasten/Binary.md",
     "Untitled.base",
     "2 - Source",
     "Test.md",
