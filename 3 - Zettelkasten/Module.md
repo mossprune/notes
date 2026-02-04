@@ -8,4 +8,6 @@ Modules are defined as:
  
 How do we build these modules in isolation? 
 
-[[]]
+How do we reason about and design our modules?
+
+[[modular-design]]

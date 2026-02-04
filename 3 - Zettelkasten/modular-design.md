@@ -1,5 +1,10 @@
 #computer-architecture #computer-science #software-design 
 
+Good modular design should allow you to work individual modules independently, while completely ignoring the rest of the system. Great modular design allows you to build the modules in any order and parallel. 
+
+[[modular-design]] also easily leads to [[decomposition]]
+
+
 The ability to break down a complex system into [[module]]'s is enhanced by a primary cognitive skill: the capacity to distinguish between the [[abstraction]] and the [[implementation]] of each part.
 
 > [!Important] 
