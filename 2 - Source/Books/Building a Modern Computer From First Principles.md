@@ -16,7 +16,7 @@ Hardware, software and applications are tightly interrelated through hidden abst
 [[module]]
 [[abstraction]]
 [[implementation]]
-[[decomposition]]
+[[modular-decomposition]]
 
 
 
