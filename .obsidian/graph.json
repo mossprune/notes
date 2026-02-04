@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:Daily -file:README",
+  "search": "-path:Daily -file:README -path:\"2 - Source\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -12,13 +12,6 @@
       "color": {
         "a": 1,
         "rgb": 3379174
-      }
-    },
-    {
-      "query": "path:\"2 - Source\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 15171875
       }
     }
   ],
