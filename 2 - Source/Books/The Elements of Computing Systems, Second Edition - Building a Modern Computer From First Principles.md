@@ -11,6 +11,12 @@ Hardware, software and applications are tightly interrelated through hidden abst
 # 1 - HARDWARE
 
 > The true voyage of discovery consists not of going to new places, but of having a new pair of eyes. — Marcel Proust (1871–1922)
+
+
+
+
+
+
 ### Boolean Logic
 
 ### Boolean Arithmetic
