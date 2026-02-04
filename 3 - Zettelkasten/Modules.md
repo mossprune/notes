@@ -11,5 +11,5 @@ How do we build these modules in isolation?
 
 Good modular design should allow you to work individual modules independently, while completely ignoring the rest of the system. Great modular design allows you to build the modules in any order and parallel. 
 
-the philosophy of "divide and conquer"
+the "divide and conquer" philosophy is made 
 
