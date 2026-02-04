@@ -7,7 +7,6 @@
 
 Hardware, software and applications are tightly interrelated through hidden abstractions and interfaces and contract based implementations.
 
-
 # 1 - HARDWARE
 
 > The true voyage of discovery consists not of going to new places, but of having a new pair of eyes. — Marcel Proust (1871–1922)
@@ -18,7 +17,6 @@ Hardware, software and applications are tightly interrelated through hidden abst
 [[implementation]]
 [[modular-design]]
 [[decomposition]]
-
 
 ### Boolean Logic
 
