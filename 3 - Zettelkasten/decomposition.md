@@ -1,7 +1,9 @@
 #computer-science #computer-architecture #software-design
 
-The process of breaking down a large, complex problem or system into smaller, more manageable sub-problems.
+The process of breaking down a large, complex problem or system into smaller, more manageable sub-problems is known as decomposition.
 
+
+#
 The ability to break down a complex system into [[module]]'s is enhanced by a primary cognitive skill: the capacity to distinguish between the [[abstraction]] and the [[implementation]] of each part.
 
 > [!Important] 

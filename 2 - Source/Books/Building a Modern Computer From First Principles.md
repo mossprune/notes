@@ -17,7 +17,7 @@ Hardware, software and applications are tightly interrelated through hidden abst
 [[abstraction]]
 [[implementation]]
 [[modular-design]]
-[[modular-decomposition]]
+[[decomposition]]
 
 
 ### Boolean Logic
