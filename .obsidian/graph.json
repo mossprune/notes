@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "-path:\"Daily\", ",
-  "showTags": true,
+  "search": "",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
