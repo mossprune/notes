@@ -1,4 +1,5 @@
 {
-  "textFontFamily": "Verdana",
-  "monospaceFontFamily": "SF Mono"
+  "textFontFamily": "Atkinson Hyperlegible Next",
+  "monospaceFontFamily": "SF Mono",
+  "baseFontSize": 18
 }
