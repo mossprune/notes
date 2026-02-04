@@ -12,8 +12,5 @@ Good modular design should allow you to work individual modules independently, w
 
 The ability to break down a complex system into modules is enhanced by another cognitive skill: the capacity to distinguish between the [[abstraction]] and the [[implementation]] of each part.
 
-The most important rule in system engineering: when using a module as a building block—any module—you are to focus exclusively on the module’s abstraction, ignoring completely its implementation detail
 
-
-The most important rule in system engineering: when using any module
-
+> The most important rule in system engineering: when using any [[Module]] you should only focus on its [[abstraction]] and ignore its [[implementation]] comp;et
