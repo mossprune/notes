@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Source/Books/Building a Modern Computer From First Principles.md",
+                "file": "3 - Zettelkasten/modular-design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building a Modern Computer From First Principles"
+              "title": "modular-design"
             }
           }
         ]
@@ -171,11 +171,11 @@
   "active": "88c7179aa64d5edc",
   "lastOpenFiles": [
     "3 - Zettelkasten/module.md",
+    "2 - Source/Books/Building a Modern Computer From First Principles.md",
     "3 - Zettelkasten/modular-decomposition.md",
     "3 - Zettelkasten/modular-design.md",
     "3 - Zettelkasten/implementation.md",
     "3 - Zettelkasten/abstraction.md",
-    "2 - Source/Books/Building a Modern Computer From First Principles.md",
     "Docs",
     "Abstraction and Implementation.md",
     "3 - Zettelkasten/Abstraction and Implementation.md",
