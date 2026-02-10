@@ -1,4 +1,4 @@
-Containers provide lots of advantages.
+Containers provide lots of advantages. The slogan for Docker
 
 ” They do this by bundling together an appli‐
 cation and all its dependencies and isolating the application from the rest of the
