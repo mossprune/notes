@@ -12,3 +12,4 @@ These [[abstraction]]'s are built layer by layer, resulting in higher level func
 
 
 
+Reference: [[Building a Modern Computer From First Principles]]]

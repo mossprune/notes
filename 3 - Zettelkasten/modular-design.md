@@ -5,3 +5,4 @@ Good modular design should allow you to work individual modules independently, w
 Great modular-design flows from [[decomposition]]
 
 
+Reference: [[Building a Modern Computer From First Principles]]]

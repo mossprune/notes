@@ -1,7 +1,5 @@
 
-A risk is a potential problem and the effects that the problem occuring will 
+A risk is a potential problem and the effects that the problem occurring will cause
 
 
-
-
-Reference: [[]]
+Reference: [[Container Security - Fundamental Technology Concepts That Protect Cloud Native Applications]]
