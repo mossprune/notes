@@ -14,4 +14,6 @@ pute resources to mine their own cryptocurrencies. This doesn’t change when yo
 move to containers. However, containers do change a lot about the way that applications run, and there are a different set of risks as a result 
 
 [[containers]]
-[[risks]]
+[[risk]]
+[[threat]]
+[[mitigations]]
