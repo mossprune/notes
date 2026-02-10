@@ -1,4 +1,4 @@
-Containers provide lots 
+Containers provide lots of advantages.
 
 ” They do this by bundling together an appli‐
 cation and all its dependencies and isolating the application from the rest of the
