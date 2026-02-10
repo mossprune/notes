@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Zettelkasten/containers.md",
+                "file": "2 - Source/Books/Container Security Fundamental Technology Concepts ThatProtect Cloud Native Applications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "containers"
+              "title": "Container Security Fundamental Technology Concepts ThatProtect Cloud Native Applications"
             }
           }
         ]
@@ -180,8 +180,8 @@
   },
   "active": "d3a0e23dc65e361d",
   "lastOpenFiles": [
-    "2 - Source/Books/Container Security Fundamental Technology Concepts ThatProtect Cloud Native Applications.md",
     "3 - Zettelkasten/containers.md",
+    "2 - Source/Books/Container Security Fundamental Technology Concepts ThatProtect Cloud Native Applications.md",
     "3 - Zettelkasten/abstraction.md",
     "2 - Source/Books/Building a Modern Computer From First Principles.md",
     "2 - Source/RFC's/Simple Authentication and Security Layer (SASL).md",
