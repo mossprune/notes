@@ -5,6 +5,12 @@
  
  SASL is conceptually a framework that provides an abstraction layer between protocols and mechanisms as illustrated in the following diagram.
 
-
-
-
+```
+              SMTP    LDAP    XMPP   Other protocols ...
+                     \       |    |      /
+                      \      |    |     /
+                     SASL abstraction layer
+                      /      |    |     \
+                     /       |    |      \
+              EXTERNAL   GSSAPI  PLAIN   Other mechanisms ...
+```
