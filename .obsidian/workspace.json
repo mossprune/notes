@@ -39,14 +39,14 @@
             "id": "3059649ab5fa9db1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "3 - Zettelkasten/threat-modeling.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "threat-modeling"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -210,9 +210,9 @@
   "active": "3059649ab5fa9db1",
   "lastOpenFiles": [
     "3 - Zettelkasten/threat-modeling.md",
+    "3 - Zettelkasten/threat.md",
     "2 - Source/Books/Container Security - Fundamental Technology Concepts That Protect Cloud Native Applications.md",
     "3 - Zettelkasten/mitigations.md",
-    "3 - Zettelkasten/threat.md",
     "3 - Zettelkasten/risk.md",
     "3 - Zettelkasten/module.md",
     "3 - Zettelkasten/decomposition.md",
