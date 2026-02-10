@@ -1,1 +1,1 @@
-Containers provide lots of advantages. The slogan for Docker is "build once, run everywhere". Containers do this by building out the application and its dependancies.
+Containers provide lots of advantages. The slogan for Docker is "build once, run everywhere". Containers do this by building out the application and bundling its dependancies together in a package. This package 
