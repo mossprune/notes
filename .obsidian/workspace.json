@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer-science",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,13 +148,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "afadc5c65ab84d39",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,12 +182,12 @@
   "lastOpenFiles": [
     "2 - Source/Books/Container Security Fundamental Technology Concepts ThatProtect Cloud Native Applications.md",
     "3 - Zettelkasten/containers.md",
+    "3 - Zettelkasten/abstraction.md",
     "2 - Source/Books/Building a Modern Computer From First Principles.md",
     "2 - Source/RFC's/Simple Authentication and Security Layer (SASL).md",
     "2 - Source/RFC's",
     "3 - Zettelkasten/decomposition.md",
     "3 - Zettelkasten/implementation.md",
-    "3 - Zettelkasten/abstraction.md",
     "3 - Zettelkasten/modular-design.md",
     "3 - Zettelkasten/module.md",
     "Docs",
