@@ -1,5 +1,6 @@
 {
   "textFontFamily": "Atkinson Hyperlegible Next",
   "monospaceFontFamily": "SF Mono",
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "interfaceFontFamily": ""
 }
