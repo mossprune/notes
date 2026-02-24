@@ -249,3 +249,13 @@ because answering that additional question requires another set of metrics, most
 metrics-based tooling vendors will charge you for recording that data. Your cost
 increases linearly with every new way you decide to interrogate your data to find
 hidden issues you could not have possibly predicted in advance.
+
+
+
+While cardinality refers to the uniqueness of the values within your data, dimension‐
+ality refers to the number of keys within that data. In observable systems, telemetry
+data is generated as an arbitrarily wide structured event (see Chapter 8). These events
+are described as “wide” because they can and should contain hundreds or even
+thousands of key-value pairs (or dimensions). The wider the event, the richer the
+context captured when the event occurred, and thus the more you can discover about
+what happened when debugging it later.
