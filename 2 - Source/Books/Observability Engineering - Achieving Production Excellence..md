@@ -27,25 +27,25 @@ confirm or rule out your suspicions?
 • Can you identify which system user is generating the most load (and therefore•
 slowing application performance the most), as well as the 2nd, 3rd, or 100th most
 load-generating users?
-• Can you identify which of those most-load-generating users only recently started•
+• Can you identify which of those most-load-generating users only recently started
 impacting performance?
-• If the 142nd slowest user complained about performance speed, can you isolate•
+• If the 142nd slowest user complained about performance speed, can you isolate
 their requests to understand why exactly things are slow for that specific user?
 • If users complain about timeouts happening, but your graphs show that the•
 99th, 99.9th, even 99.99th percentile requests are fast, can you find the hidden
 timeouts?
-• Can you answer questions like the preceding ones without first needing to•
+• Can you answer questions like the preceding ones without first needing to
 predict that you might need to ask them someday (and therefore set up specific
 monitors in advance to aggregate the necessary data)?
-• Can you answer questions like these about your applications even if you have•
+• Can you answer questions like these about your applications even if you have
 never seen or debugged this particular issue before?
-• Can you get answers to questions like the preceding ones quickly, so that you•
+• Can you get answers to questions like the preceding ones quickly, so that you
 can iteratively ask a new question, and another, and another, until you get to the
 correct source of issues, without losing your train of thought (which typically
 means getting answers within seconds instead of minutes)?
-• Can you answer questions like the preceding ones even if that particular issue has•
+• Can you answer questions like the preceding ones even if that particular issue has
 never happened before?
-• Do the results of your debugging investigations often surprise you by revealing•
+• Do the results of your debugging investigations often surprise you by revealing
 new, perplexing, and bizarre findings, or do you generally find only the issues
 you suspected that you might find?
 • Can you quickly (within minutes) isolate any fault in your system, no matter how•
