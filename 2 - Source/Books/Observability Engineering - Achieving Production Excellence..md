@@ -79,3 +79,21 @@ typically stumbling around in the dark and trying to understand things.
 
 Observability requires evolving the way we think about gathering
 the data needed to debug effectively. 
+
+For the past two or three decades, the space between hardware and its human
+operators has been regulated by a set of tools and conventions most call “monitoring.”
+Practitioners have, by and large, inherited this set of tools and conventions and
+accepted it as the best approach for understanding that squishy virtual space between
+the physical and their code. And they have accepted this approach despite the knowledge that, in many cases, its inherent limitations have taken them hostage late into many sleepless nights of troubleshooting. Yet, they still grant it feelings of trust, and
+maybe even affection, because that captor is the best they have.
+
+With monitoring, software developers can’t fully see their systems. They squint at
+the systems. They try, in vain, to size them up and to predict all the myriad ways
+they could possibly fail. Then they watch—they monitor—for those known failure
+modes. They set performance thresholds and arbitrarily pronounce them “good” or
+“bad.” They deploy a small robot army to check and recheck those thresholds on their
+behalf. They collect their findings into dashboards. They then organize themselves
+around those robots into teams, rotations, and escalations. When those robots tell
+them performance is bad, they alert themselves. Then, over time, they tend to those
+arbitrary thresholds like gardeners: pruning, tweaking, and fussing over the noisy
+signals they grow
