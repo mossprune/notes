@@ -1,0 +1,1 @@
+[Friedrich Voltz Hirtenkinder im Wald mit Kühen und Schafen.jpg](https://upload.wikimedia.org/wikipedia/commons/2/26/Friedrich_Voltz_Hirtenkinder_im_Wald_mit_K%C3%BChen_und_Schafen.jpg)
