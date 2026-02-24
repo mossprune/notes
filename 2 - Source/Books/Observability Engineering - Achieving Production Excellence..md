@@ -68,3 +68,5 @@ is it about mathematical equations. It is about how people interact with and try
 understand their complex systems. Therefore, observability requires recognizing the
 interaction between both people and technology to understand how those complex
 systems work together.
+
+
