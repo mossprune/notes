@@ -96,4 +96,61 @@ behalf. They collect their findings into dashboards. They then organize themselv
 around those robots into teams, rotations, and escalations. When those robots tell
 them performance is bad, they alert themselves. Then, over time, they tend to those
 arbitrary thresholds like gardeners: pruning, tweaking, and fussing over the noisy
-signals they grow
+signals they grow.
+
+
+Many sophisticated apparatuses have been built atop the metric: time-series databases
+(TSDBs), statistical analyses, graphing libraries, fancy dashboards, on-call rotations,
+ops teams, escalation policies, and a plethora of ways to digest and respond to what
+that small army of robots is telling you.
+But an upper bound exists to the complexity of the systems you can understand
+with metrics and monitoring tools. And once you cross that boundary, the change is
+abrupt. What worked well enough last month simply does not work anymore. You
+begin falling back to low-level commands like strace, tcpdump, and hundreds of
+print statements to answer questions about how your system is behaving on a daily
+basis.
+
+It’s hard to calculate exactly when that tipping point will be reached. Eventually, the
+sheer number of possible states the system could get itself into will outstrip your
+team’s ability to pattern-match based on prior outages. Too many brand-new, novel
+states are needing to be understood constantly. Your team can no longer guess which
+dashboards should be created to display the innumerable failure modes.
+Monitoring and metrics-based tools were built with certain assumptions about your
+architecture and organization, assumptions that served in practice as a cap on com‐
+plexity. These assumptions are usually invisible until you exceed them, at which point
+they cease to be hidden and become the bane of your ability to understand what’s
+happening. Some of these assumptions might be as follows:
+
+• Your application is a monolith.
+• There is one stateful data store (“the database”), which you run.
+• Many low-level system metrics are available (e.g., resident memory, CPU load
+average).
+• The application runs on containers, virtual machines (VMs), or bare metal, which you control.
+• System metrics and instrumentation metrics are the primary source of information for debugging code.
+• You have a fairly static and long-running set of nodes, containers, or hosts to monitor.
+• Engineers examine systems for problems only after problems occur.
+• Dashboards and telemetry exist to serve the needs of operations engineers.
+• Monitoring examines “black-box” applications in much the same way as local
+applications.
+• The focus of monitoring is uptime and failure prevention.
+• Examination of correlation occurs across a limited (or small) number of
+dimensions.
+When compared to the reality of modern systems, it becomes clear that traditional
+monitoring approaches fall short in several ways. The reality of modern systems is as
+follows:
+• Your application has many services.
+• There is polyglot persistence (i.e., many databases and storage systems).
+• Infrastructure is extremely dynamic, with capacity flicking in and out of existence elastically.
+• Many far-flung and loosely coupled services are managed, many of which are not
+directly under your control.
+• Engineers actively check to see how changes to production code behave, in order
+to catch tiny issues early, before they create user impact.
+• Automatic instrumentation is insufficient for understanding what is happening
+in complex systems.
+• Software engineers own their own code in production and are incentivized to
+proactively instrument their code and inspect the performance of new changes as
+they’re deployed.
+• The focus of reliability is on how to tolerate constant and continuous degradation, while building resiliency to user-impacting failures by utilizing constructs
+like error budget, quality of service, and user experience.
+• Examination of correlation occurs across a virtually unlimited number of•
+dimensions.
