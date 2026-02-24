@@ -335,7 +335,7 @@ develop a practice of observability in key areas of your engineering processes.
 
 Although the term observability has been defined for decades, its application to
 software systems is a new adaptation that brings with it several new considerations
-and characteristics. Compared to their simpler early counterparts, modern systems
+and characteristics. Compared to their simpler early counterparts, modern systemss
 have introduced such additional complexity that failures are harder than ever to
 predict, detect, and troubleshoot.
 To mitigate that complexity, engineering teams must now be able to constantly gather
