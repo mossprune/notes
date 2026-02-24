@@ -186,3 +186,66 @@ systems are also made accessible to application developers as abstracted infrast
 platforms. As users of those platforms, application developers are now left to deal
 with an inherent amount of irreducible complexity that has landed squarely on their
 plates
+
+In short: we blew up the monolith. Now every request has to hop the network
+multiple times, and every software developer needs to be better versed in systems and
+operations just to get their daily work done
+
+In modern cloud native systems, the hardest thing about debugging is no longer
+understanding how the code runs but finding where in your system the code with the
+problem even lives. Good luck looking at a dashboard or a service map to see which
+node or service is slow, because distributed requests in these systems often loop
+back on themselves. Finding performance bottlenecks in these systems is incredibly
+challenging. When something gets slow, everything gets slow. Even more challenging,
+because cloud native systems typically operate as platforms, the code may live in a
+part of the system that this team doesn’t even control.
+
+In a modern world, debugging with metrics requires you to connect dozens of
+disconnected metrics that were recorded over the course of executing any one partic‐
+ular request, across any number of services or machines, to infer what might have
+occurred over the various hops needed for its fulfillment. The helpfulness of those
+dozens of clues depends entirely upon whether someone was able to predict, in
+advance, if that measurement was over or under the threshold that meant this action
+contributed to creating a previously unknown anomalous failure mode that had never
+been previously encountered.
+
+By contrast, debugging with observability starts with a very different substrate: a deep
+context of what was happening when this action occurred. Debugging with observa‐
+bility is about preserving as much of the context around any given request as possible,
+so that you can reconstruct the environment and circumstances that triggered the
+bug that led to a novel failure mode. Monitoring is for the known-unknowns, but
+observability is for the unknown-unknowns
+
+
+In the context of databases, cardinality refers to the uniqueness of data values con‐
+tained in a set. Low cardinality means that a column has a lot of duplicate values
+in its set. High cardinality means that the column contains a large percentage of
+completely unique values. A column containing a single value will always have the
+lowest possible cardinality. A column containing unique IDs will always have the
+highest possible cardinality
+
+
+Cardinality matters for observability, because high-cardinality information is almost
+always the most useful in identifying data for debugging or understanding a system.
+Consider the usefulness of sorting by fields such as user IDs, shopping cart IDs,
+request IDs, or any other myriad IDs like instances, container, hostname, build
+number, spans, and so forth. Being able to query against unique IDs is the best way
+to pinpoint individual needles in any given haystack. You can always downsample a
+high-cardinality value into something with lower cardinality (for example, bucketing
+last names by prefix), but you can never do the reverse.
+Unfortunately, metrics-based tooling systems can deal with only low-cardinality
+dimensions at any reasonable scale. Even if you have only merely hundreds of hosts
+to compare, with metrics-based systems, you can’t use the hostname as an identifying
+tag without hitting the limits of your cardinality key-space.
+These inherent limitations place unintended restrictions on the ways that data can be
+interrogated. When debugging with metrics, for every question you may want to ask
+of your data, you have to decide—in advance, before a bug occurs—what you need to
+inquire about so that its value can be recorded when that metric is written.
+This has two big implications. First, if during the course of investigation, you decide
+that an additional question must be asked to discover the source of a potential
+problem, that cannot be done after the fact. You must first go set up the metrics
+that might answer that question and wait for the problem to happen again. Second,
+because answering that additional question requires another set of metrics, most
+metrics-based tooling vendors will charge you for recording that data. Your cost
+increases linearly with every new way you decide to interrogate your data to find
+hidden issues you could not have possibly predicted in advance.
