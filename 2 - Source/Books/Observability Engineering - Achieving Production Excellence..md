@@ -175,5 +175,14 @@ only as long as most of the problems you encounter are variations of the same fe
 predictable themes you’ve encountered in the past.
 
 
->Every application has an inherent amount of irreducible complexity. The only question is: who will have to deal with it—the user, the application developer, or the platform developer?
-—Larry Tesler
+>Every application has an inherent amount of irreducible complexity. The only question is: who will have to deal with it—the user, the application developer, or the platform developer? 
+>														—Larry Tesler
+
+Modern distributed systems architectures notoriously fail in novel ways that no one is
+able to predict and that no one has experienced before. This condition happens often
+enough that an entire set of [assertions](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) has been coined about the false assumptions
+that programmers new to distributed computing often make. Modern distributed
+systems are also made accessible to application developers as abstracted infrastructure
+platforms. As users of those platforms, application developers are now left to deal
+with an inherent amount of irreducible complexity that has landed squarely on their
+plates
