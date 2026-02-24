@@ -48,7 +48,7 @@ never happened before?
 • Do the results of your debugging investigations often surprise you by revealing
 new, perplexing, and bizarre findings, or do you generally find only the issues
 you suspected that you might find?
-• Can you quickly (within minutes) isolate any fault in your system, no matter how•
+• Can you quickly (within minutes) isolate any fault in your system, no matter how
 complex, deeply buried, or hidden within your stack?
 
 
