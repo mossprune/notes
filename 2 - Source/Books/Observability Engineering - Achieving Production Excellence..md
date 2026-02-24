@@ -14,15 +14,14 @@ A good litmus test for determining whether those conditions are true is to ask y
 your applications to explain any anomalies, without hitting investigative dead
 ends (i.e., the issue might be in a certain group of things, but you can’t break it
 down any further to confirm)?
-• Can you understand what any particular user of your software may be experienc‐•
-ing at any given time?
+• Can you understand what any particular user of your software may be experiencing at any given time?
 • Can you quickly see any cross-section of system performance you care about,•
 from top-level aggregate views, down to the single and exact user requests that
 may be contributing to any slowness (and anywhere in between)?
 • Can you compare any arbitrary groups of user requests in ways that let you•
 correctly identify which attributes are commonly shared by all users who are
 experiencing unexpected behavior in your application?
-• Once you do find suspicious attributes within one individual user request, can•
+• Once you do find suspicious attributes within one individual user request, can
 you search across all user requests to identify similar behavioral patterns to
 confirm or rule out your suspicions?
 • Can you identify which system user is generating the most load (and therefore•
