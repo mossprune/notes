@@ -75,3 +75,7 @@ and technical solutions to dig us out of this hole. Observability alone is not t
 solution to all of our software engineering problems. But it does help you clearly see
 what’s happening in all the obscure corners of your software, where you are otherwise
 typically stumbling around in the dark and trying to understand things.
+
+
+Observability requires evolving the way we think about gathering
+the data needed to debug effectively. 
