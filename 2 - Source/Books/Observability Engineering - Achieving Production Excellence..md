@@ -130,11 +130,10 @@ average).
 • You have a fairly static and long-running set of nodes, containers, or hosts to monitor.
 • Engineers examine systems for problems only after problems occur.
 • Dashboards and telemetry exist to serve the needs of operations engineers.
-• Monitoring examines “black-box” applications in much the same way as local
-applications.
+• Monitoring examines “black-box” applications in much the same way as local applications.
 • The focus of monitoring is uptime and failure prevention.
-• Examination of correlation occurs across a limited (or small) number of
-dimensions.
+• Examination of correlation occurs across a limited (or small) number of dimensions.
+
 When compared to the reality of modern systems, it becomes clear that traditional
 monitoring approaches fall short in several ways. The reality of modern systems is as
 follows:
@@ -154,3 +153,27 @@ they’re deployed.
 like error budget, quality of service, and user experience.
 • Examination of correlation occurs across a virtually unlimited number of•
 dimensions.
+
+
+The last point is important, because it describes the breakdown that occurs between
+the limits of correlated knowledge that one human can be reasonably expected to
+think about and the reality of modern system architectures. So many possible dimen‐
+sions are involved in discovering the underlying correlations behind performance
+issues that no human brain, and in fact no schema, can possibly contain them.
+With observability, comparing high-dimensionality and high-cardinality data
+becomes a critical component of being able to discover otherwise hidden issues
+buried in complex system architectures.
+
+Beyond that tipping point of system complexity, it’s no longer possible to fit a model
+of the system into your mental cache. By the time you try to reason your way through
+its various components, your mental model is already likely to be out-of-date.
+As an engineer, you are probably used to debugging via intuition. To get to the source
+of a problem, you likely feel your way along a hunch or use a fleeting reminder of
+an outage long past to guide your investigation. However, the skills that served you
+well in the past are no longer applicable in this world. The intuitive approach works
+only as long as most of the problems you encounter are variations of the same few
+predictable themes you’ve encountered in the past.
+
+
+>Every application has an inherent amount of irreducible complexity. The only question is: who will have to deal with it—the user, the application developer, or the platform developer?
+—Larry Tesler
