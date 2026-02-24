@@ -69,4 +69,9 @@ understand their complex systems. Therefore, observability requires recognizing 
 interaction between both people and technology to understand how those complex
 systems work together.
 
-
+Observability is the solution to that gap. Our complex production software systems
+are a mess for a variety of both technical and social reasons. So it will take both social
+and technical solutions to dig us out of this hole. Observability alone is not the entire
+solution to all of our software engineering problems. But it does help you clearly see
+what’s happening in all the obscure corners of your software, where you are otherwise
+typically stumbling around in the dark and trying to understand things.
