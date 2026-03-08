@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Source/Books/High PerformanceBrowser Networking - Ilya Grigorik.md",
+                "file": "2 - Source/Books/Learn Concurrent Programming with Go - James Cutjar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "High PerformanceBrowser Networking - Ilya Grigorik"
+              "title": "Learn Concurrent Programming with Go - James Cutjar"
             }
           }
         ]
@@ -181,12 +181,13 @@
   },
   "active": "7775d9f458fdcf4b",
   "lastOpenFiles": [
-    "2 - Source/Books/Observability Engineering - Achieving Production Excellence..md",
     "2 - Source/Books/High PerformanceBrowser Networking - Ilya Grigorik.md",
+    "2 - Source/Books/Learn Concurrent Programming with Go - James Cutjar.md",
+    "2 - Source/Books/Untitled",
+    "2 - Source/Books/Observability Engineering - Achieving Production Excellence..md",
     "2 - Source/Books/Container Security - Fundamental Technology Concepts That Protect Cloud Native Applications.md",
     "1 - Inbox/wallpapers.md",
     "3 - Zettelkasten/Company Names.md",
-    "2 - Source/Books/Untitled",
     "3 - Zettelkasten/module.md",
     "2 - Source/RFC's/Simple Authentication and Security Layer (SASL).md",
     "3 - Zettelkasten/decomposition.md",
@@ -213,7 +214,6 @@
     "3 - Zettelkasten/Binary.md",
     "Untitled.base",
     "2 - Source",
-    "Test.md",
     "3 - Zettelkasten",
     "1 - Inbox"
   ]
